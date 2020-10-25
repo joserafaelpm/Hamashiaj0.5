@@ -102,6 +102,8 @@ padding-left: 62px;
   z-index: 1;
   font-size: 50px;
   background-color: white;
+  font-family: 'Fjalla One', sans-serif;
+  color: #FFB200;
 }
 .container{
   margin-top: 3em !important;
@@ -145,7 +147,21 @@ li a:hover {
 h3{
   font-family: helvetica, arial, sans-serif;
   margin-bottom: 50px;
+  font-size: 3.5em;
 }
 .tarjeta-presentacion{
   margin: 50px 60px;
+}
+.banner3{
+  position: relative;
+}
+.banner3{
+  position: absolute;
+  right: 5%;
+  z-index:;
+}
+#insta{
+  width: 50vw;
+  height: %;
+  right: 0;
 }
