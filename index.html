@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+  <script type="text/jscript" src="script.js"></script>
   <title>HAMASHÌAJ</title>
 </head>
 
@@ -48,22 +49,22 @@
       <div class="collapse navbar-collapse menu m-auto" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">REGISTRO</a>
+            <a class="nav-link" href="../html/registroUsuario.html">REGISTRO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="inicioSesión.html">INICIAR SESION</a>
+            <a class="nav-link" href="../html/inicioSesión.html">INICIAR SESION</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">MENU</a>
+            <a class="nav-link" href="../index.html">MENU</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pedidosUsuario.html">PEDIDOS</a>
+            <a class="nav-link" href="../html/pedidosUsuario.html">PEDIDOS</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#bajo">REDES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="quienessomos.html">QUIÉNES SOMOS</a>
+            <a class="nav-link" href="../html/quienessomos.html">QUIÉNES SOMOS</a>
           </li>
         </ul>
       </div>
@@ -71,22 +72,25 @@
   </header>
   <section id="Comida" class="container">
     <section id="otro_banner" class="banner2">
-      <ul class="nav flex-column" style="background-color: rgba(255, 255, 255, 0.5);">
-        <li class="nav-item">
-          <a class="nav-link" href="#Comida">Todas la categorias</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Hamburguesas">Hamburguesa</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Sandiwch">Sandiwch</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#picadas">Picada</a>
-        </li>
+      <ul class="nav flex-column category_item" style="background-color: rgba(255, 255, 255, 0.5);">
+        <di class="category_list">
+          <li class="nav-item">
+            <a class="nav-link category_item" href="#Comida" category="all">Todas la categorias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link category_item" href="#Hamburguesas" category="Hamburguesa">Hamburguesa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link category_item" href="#Sandiwch" category="Sandiwch">Sandiwch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link category_item" href="#picadas" category="picada">Picada</a>
+          </li>
+        </di>
       </ul>
     </section>
-    <section id="Harburguesas" class="container">
+    <section class="products-list">
+    <section id="Harburguesas" class="container" category="Hamburguesa">
       <!--Hamburguesas-->
       <div class="container" id="Hamburguesas">
         <div class="etiqueta" id="HamburguesaEtiqueta">
@@ -100,10 +104,10 @@
                 <h5 class="card-title">
                   <b>Horno Ardiente</b>
                 </h5>
-                <p class="card-text ">
+              <p class="card-text ">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
@@ -114,10 +118,10 @@
                 <h5 class="card-title">
                   <b>Zarza Ardiente</b>
                 </h5>
-                <p class="card-text">
+     <p class="card-text">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
@@ -128,10 +132,10 @@
                 <h5 class="card-title">
                   <b>Dulce a mi Paladar</b>
                 </h5>
-                <p class="card-text">
+               <p class="card-text">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
@@ -142,10 +146,10 @@
                 <h5 class="card-title">
                   <b>Santo Dios</b>
                 </h5>
-                <p class="card-text">
+               <p class="card-text">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
@@ -156,10 +160,10 @@
                 <h5 class="card-title">
                   <b>Llena de Gracia</b>
                 </h5>
-                <p class="card-text ">
+            <p class="card-text ">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
@@ -170,10 +174,10 @@
                 <h5 class="card-title">
                   <b>Oveja Perdida</b>
                 </h5>
-                <p class="card-text ">
+              <p class="card-text ">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
@@ -184,10 +188,10 @@
                 <h5 class="card-title">
                   <b>Señor mio y Dios mio</b>
                 </h5>
-                <p class="card-text ">
+                 <p class="card-text ">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
@@ -198,10 +202,10 @@
                 <h5 class="card-title">
                   <b>Bodas de Cana</b>
                 </h5>
-                <p class="card-text ">
+              <p class="card-text ">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
@@ -215,14 +219,14 @@
                 <p class="card-textECIO">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="Sandiwch" class="container">
+    <section id="Sandiwch" class="container" category="Sandiwch">
       <!---sandiwch --->
       <div class="container" id="SandiwchOtracosa">
         <div class="etiqueta">
@@ -236,10 +240,10 @@
                 <h5 class="card-title">
                   <b>Perla Preciosa</b>
                 </h5>
-                <p class="card-text">
+                 <p class="card-text">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
@@ -250,10 +254,10 @@
                 <h5 class="card-title">
                   <b>Semilla de Mostaza</b>
                 </h5>
-                <p class="card-text">
+                  <p class="card-text">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
@@ -264,10 +268,10 @@
                 <h5 class="card-title">
                   <b>Fuego de Dios</b>
                 </h5>
-                <p class="card-text">
+                 <p class="card-text">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
@@ -278,10 +282,10 @@
                 <h5 class="card-title">
                   <b>Panal de Miel</b>
                 </h5>
-                <p class="card-text">
+                 <p class="card-text">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
@@ -295,14 +299,14 @@
                 <p class="card-text">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="picadas" class="container">
+    <section id="picadas" class="container" category="picada">
       <!---picadas --->
       <div class="container" id="picadasOtracosa">
         <div class="etiqueta">
@@ -316,10 +320,10 @@
                 <h5 class="card-title">
                   <b>5 Panes y 2 Peces</b>
                 </h5>
-                <p class="card-text">
+                  <p class="card-text">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
@@ -330,10 +334,10 @@
                 <h5 class="card-title">
                   <b>Mana del Cielo</b>
                 </h5>
-                <p class="card-text">
+                 <p class="card-text">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
@@ -344,16 +348,17 @@
                 <h5 class="card-title">
                   <b>Agua Viva</b>
                 </h5>
-                <p class="card-text">
+                  <p class="card-text">
                   PRECIO
                 </p>
-                <button type="button" class="btn btn-outline-warning"><a href="detalles.html">Ver Mas</a></button>
+                <button type="button" class="btn btn-outline-warning"><a href="../html/detalles.html">Ver Mas</a></button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+  </section>
   </section>
   <footer class="footer">
     <section id="bajo">

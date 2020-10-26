@@ -173,3 +173,7 @@ h3{
 #footerArchivo iframe{
   width: 100%;
 }
+
+.category_list .ct_item_active{
+  background: #FFB200;
+}
