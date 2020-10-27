@@ -49,27 +49,75 @@
       <div class="collapse navbar-collapse menu m-auto" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto">
           <li class="nav-item">
-            <a class="nav-link" href="../html/registroUsuario.html">REGISTRO</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="../html/inicioSesión.html">INICIAR SESION</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../index.html">MENU</a>
+            <a class="nav-link" href="../adminhtml/admin.html">MENU</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../html/pedidosUsuario.html">PEDIDOS</a>
+            <a class="nav-link" href="../adminhtml/lista.html">PEDIDOS</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#bajo">REDES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../html/quienessomos.html">QUIÉNES SOMOS</a>
+            <a class="nav-link" href="../adminhtml/registroEmpresa.html">QUIÉNES SOMOS</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
+
+  <div class="container">
+    <section id="Comida" class="container ">
+      <section id="otro_banner" class="banner2 mt-5">
+        <h1 id="menu-registro-Producto"><b>Menu</b></h1>
+        <ul class="nav flex-column category_item" style="background-color: rgba(255, 255, 255, 0.5);">
+          <di class="category_list">
+            <li class="nav-item">
+              <a class="nav-link category_item" href="../adminhtml/admin.html#Comida" category="all">Todas la categorias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link category_item" href="../adminhtml/admin.html#Hamburguesas" category="Hamburguesa">Hamburguesa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link category_item" href="../adminhtml/admin.html#Sandiwch" category="Sandiwch">Sandiwch</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link category_item" href="../adminhtml/admin.html#picadas" category="picada">Picada</a>
+            </li>
+          </di>
+        </ul>
+      </section>
+      <div class="row">
+          <aside class="col-md-3">
+          </aside>
+          <div class="col-md-9 offset-1">
+              <form action=""><h1 class="text-center offset-2" > <b>Registro de Nuevo Producto</b> </h1>
+                  <div class="form-group row">
+                      <label for="" class="col-2 col-form-label">Referencia:</label>
+                      <input type="text" class="form-control col-10">
+                  </div>
+                  <div class="form-group row">
+                      <label for="" class="col-2 col-form-label">Nombre:</label>
+                      <input type="number" class="form-control col-10">
+                  </div>
+                  <div class="form-group row">
+                      <label for="" class="col-2 col-form-label">Descripcion: </label>
+                      <input type="number" class="form-control col-10">
+                  </div>
+                  <div class="form-group row">
+                      <label for="" class="col-2 col-form-label">Detalles:</label>
+                      <textarea name="" class="form-control col-10" id="" cols="30" rows="10"></textarea>
+                  </div>
+              </form>
+              <div class="container offset-6">
+                  <button class="btn btn-primary">Guardar</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
   <footer class="footer">
     <section id="bajo">
       <div class="container-fluid foter">

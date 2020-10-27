@@ -177,3 +177,7 @@ h3{
 .category_list .ct_item_active{
   background: #FFB200;
 }
+
+#menu-registro-Producto{
+  background-color: rgba(251, 181, 1, 0.88);
+}
